@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="titulo">
+        <h1>07 Taller 01 Algoritmos</h1>
+        <span>Hecho por Daniela Lozano</span>
+    </section>
+    <main>
+        <section>
+            <h2>Calcular pasajes</h2>
+            <p class="parrafos">1. A través de un algoritmo ayude a un usuario de Megabus a saber cuántos
+                pasajes tiene según el cupo de su tarjeta. Cada pasaje cuesta $1.700 pesos.
+                Además es importante alertar al usuario cuando su cupo se encuentre con
+                menos de 2 pasajes, se le informa que debe recargar su tarjeta.</p>
+            <p class="parrafos">Precio pasaje: $1700</p>
+            <label for="cupoTarjetaBus">Cupo tarjeta Megabus</label>
+            <input placeholder="Cupo tarjeta en pesos" type="text" id="cupoTarjetaBus">
+            <button class="btnCalculaPasajes">Calcular pasajes</button>
+            <p class="txtResultado txtPasajes"></p>
+        </section>
+        <section>
+            <h2>Número mayor a cero</h2>
+            <p class="parrafos">2. Haga el algoritmo que, dada una variable cuyo valor es leído desde el
+                teclado, imprima por pantalla si el número es o no mayor que 0 (cero).</p>
+            <label for="numCero">Por favor, ingresa un número:</label>
+            <input placeholder="Digite un número" type="text" id="numCero">
+            <button class="btnNumMayorCero">Ingresar número</button>
+            <p class="txtResultado txtNumMayorCero"></p>
+        </section>
+        <section>
+            <h2>Número par</h2>
+            <p class="parrafos">3. Diseñe un algoritmo que, dada una variable cuyo valor es leído desde el
+                teclado, imprima por pantalla si el número es o no mayor que 0 (cero), y si
+                el número es par o impar.</p>
+            <label for="esPar">Digite un número para saber si es par:</label>
+            <input placeholder="Número" class="inputNumber" id="esPar" type="number">
+            <button class="btnEsPar">Es par?</button>
+            <p class="txtResultado txtPar"></p>
+        </section>
+        <section>
+            <h2>Puntos aerolinea</h2>
+            <p class="parrafos">4. Determine si un viajero de una Aerolínea puede tomar un tiquete
+                determinado en clase: Ejecutiva, Normal o Económica. Dependiendo de los
+                puntos que tenga puede tener acceso a cada clase. Más de 2000 puntos
+                puede estar en Ejecutiva, entre 1000 y 1999 puede estar en Normal y
+                menos de 1000 puede estar en Económica.</p>
+            <label for="puntosViajero">Ingrese sus puntos de viajero:</label>
+            <input placeholder="Digite cantidad de puntos" type="number" id="puntosViajero">
+            <button class="btnPuntosViajero">Ingresar puntos</button>
+            <p class="txtResultado txtPuntosViajero"></p>
+        </section>
+        <section>
+            <h2>Variables numéricas</h2>
+            <p class="parrafos">5. Escriba un algoritmo que intercambie el valor de dos variables numéricas
+                sólo si el valor de la primera es mayor que el de la segunda.</p>
+            <label for="primerNumero">Ingrese un número:</label>
+            <input placeholder="Digite un número" type="number" id="primerNumero">
+            <input placeholder="Digite un segundo número" type="number" id="segundoNumero">
+            <button class="btnIntercambio">Solicitar intercambio</button>
+            <p class="txtResultado txtIntercambio"></p>
+        </section>
+        <section>
+            <h2>Notas Finales</h2>
+            <p class="parrafos">6. Diseñe un algoritmo que calcule la nota final de un estudiante con los
+                siguientes porcentajes: primer parcial 30%, segundo parcial 30% y examen
+                final 40%. Al final determine si pudo aprobar o no la asignatura. La nota
+                mínima aprobatoria es 3.2 (Tres punto Dos).</p>
+            <label for="primerNota">Ingrese su nota:</label>
+            <input placeholder="Nota primer parcial" type="number" id="primerNota">
+            <input placeholder="Nota segundo parcial" type="number" id="segundaNota">
+            <input placeholder="Nota tercer parcial" type="number" id="tercerNota">
+            <button class="btnNotas">Calcular nota final</button>
+            <p class="txtResultado txtNotas"></p>
+        </section>
+        <section>
+            <h2>Pago mensual vendedor</h2>
+            <p class="parrafos">7. Calcule e imprima el pago mensual para un vendedor de autos, basándose
+                en lo siguiente:
+                a. El pago base es de $350, más una comisión de $15 por cada auto
+                vendido y un bono de 40$ si vendió mas de 15 autos.
+                b. El impuesto a pagar es el 25% del pago total
+                c. Los datos de entrada son el nombre del vendedor y el número de
+                autos vendidos en el mes
+                d. Se desea imprimir el nombre del vendedor, el sueldo bruto, el
+                impuesto y el sueldo neto</p>
+            <label for="nombreVendedor">Ingrese su nombre:</label>
+            <input placeholder="Nombre vendedor" type="text" id="nombreVendedor">
+            <label for="autosVendidos">Ingrese cantidad de autos vendidos:</label>
+            <input placeholder="Número de autos vendidos" type="number" id="autosVendidos">
+            <button class="btnAutos">Calcular salario</button>
+            <p class="txtResultado txtSalario"></p>
+        </section>
+        <section>
+            <h2>Variables de entrada</h2>
+            <p class="parrafos">8. Escribir algoritmos que calculen y saquen por pantalla:
+                a. El máximo de tres números introducidos por teclado;
+                b. El mínimo de tres números dados por el usuarios
+                c. El promedio de tres números dados por el usuario
+                d. Determinar si una letra pulsada por el usuario es mayúscula o
+                minúscula.
+                e. Indique si un carácter es un digito numérico.</p>
+            <label for="variable1">Ingrese un número:</label>
+            <input placeholder="Primer número" type="number" id="variable1">
+            <input placeholder="Segundo número" type="number" id="variable2">
+            <input placeholder="Tercer número" type="number" id="variable3"><br>
+            <label for="variableLetra">Ingrese una letra:</label>
+            <input placeholder="Ingrese una letra" type="text" id="variableLetra">
+            <label for="variableCaracter">Ingrese un caracter:</label>
+            <input placeholder="Ingrese un caracter" type="text" id="variableCaracter">
+            <button class="btnVariables">Calcular variables</button>
+            <p class="txtResultado txtVariables"></p>
+        </section>
+        <section>
+            <h2>Nota final</h2>
+            <p class="parrafos">9. Diseñe un algoritmo que dada una nota (numérica) determine el estado de
+                un estudiante según la siguiente tabla: EXCELENTE: 5.0, BUENO: entre 4.0 y
+                4.9, REGULAR: entre 3.0 y 3.9 y DEFICIENTE: entre 0 y 2.9.</p>
+            <label for="notaFinal">Ingrese su nota final:</label>
+            <input placeholder="Nota final" type="text" id="notaFinal">
+            <button class="btnNotaFinal">Calcular aprobación curso</button>
+            <p class="txtResultado txtNotaFinal"></p>
+        </section>
+        <section>
+            <h2>Nota final</h2>
+            <p class="parrafos">10. Dadas las notas parciales de 3 estudiantes, calcule la nota definitiva de
+                cada uno de ellos y determine que estudiante obtuvo mejor rendimiento
+                académico y cual obtuvo el mas bajo rendimiento académico.</p>
+            <label for="notaPersona1">Ingrese nota primer estudiante:</label>
+            <input placeholder="Nota final estudiante" type="number" id="notaPersona1"><br>
+            <label for="notaPersona2">Ingrese nota segundo estudiante:</label>
+            <input placeholder="Nota final estudiante" type="number" id="notaPersona2"><br>
+            <label for="notaPersona3">Ingrese nota tercer estudiante:</label>
+            <input placeholder="Nota final estudiante" type="number" id="notaPersona3">
+            <button class="btnNotasEstud">Calcular aprobación curso</button>
+            <p class="txtResultado txtNotasestud"></p>
+        </section>
+        <section>
+            <h2>Equipos futbol</h2>
+            <p class="parrafos">11. Escribir un algoritmo que determine el equipo en el que será asignado un
+                jugador. Se tiene como datos: nombre, cédula y edad. Y se clasifica en cada
+                equipo así: Profesionales para jugadores entre 25 y 40 años, aficionados
+                entre 18 y 24 años, Novatos entre 12 y 17 años. Otras edades no pueden
+                ser asignados a ningún equipo.</p>
+            <label for="nombreJugador">Nombre del jugador:</label>
+            <input placeholder="Ingrese su nombre" type="text" id="nombreJugador"><br>
+            <label for="docJugador">Cedula del jugador:</label>
+            <input placeholder="Ingrese su documento" type="text" id="docJugador"><br>
+            <label for="edadJugador">Edad del jugador:</label>
+            <input placeholder="Ingrese su edad" type="number" id="edadJugador">
+            <button class="btnFutbol">Conocer equipo</button>
+            <p class="txtResultado txtFutbol"></p>
+        </section>
+        <section>
+            <h2>Equipos futbol</h2>
+            <p class="parrafos">12. Solicitar tres números al usuario e intercambiarlos entre si, solo si el
+                segundo es mayor que el primero y el tercero.</p>
+            <label for="intercambio1">Ingrese el primer número:</label>
+            <input placeholder="Ingrese primer número" type="text" id="intercambio1"><br>
+            <label for="intercambio2">Ingrese el segundo número:</label>
+            <input placeholder="Ingrese segundo número" type="text" id="intercambio2"><br>
+            <label for="intercambio3">Ingrese el tercer número:</label>
+            <input placeholder="Ingrese tercer número" type="number" id="intercambio3">
+            <button class="btnTresIntercambios">Intercambiar números</button>
+            <p class="txtResultado txtTresIntercambios"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>

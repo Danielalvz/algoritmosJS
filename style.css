@@ -1,0 +1,62 @@
+
+/* HEADER */
+h1 {
+    font-size: 2em;
+}
+
+.titulo {
+    text-align: center;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+input,
+button {
+    min-width: 72px;
+    min-height: 36px;
+    border: 1px solid grey;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+
+button {
+    display: block;
+    cursor: pointer;
+    background-color: #450fd9;
+    color: white;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(127, 127, 255);
+}
+
+
+label,
+    input {
+        padding: 0 20px;
+    }
+
+input {
+    margin-bottom: 2em;
+}
+
+.txtResultado {
+    font-size: 1.5em;
+    background: #450fd9;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.parrafos {
+    padding: 0 20px;
+    font-size: 1.2em;
+}
